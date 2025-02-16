@@ -8,9 +8,7 @@ idade = int(input("me informe sua idade: "))
 
 if idade < 16:
     print("voce nao pode votar!")
-elif idade < 18:
-    print("seu voto e facultativo!")
-elif idade < 65:
+elif idade >= 18 and idade < 65:
     print("seu voto é obrigatorio!")
-else:
-    print("voto facultativo!")
+elif idade > 16 or idade > 65:
+    print("seu voto é facultativo!")
