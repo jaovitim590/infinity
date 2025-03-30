@@ -8,3 +8,5 @@ for i in range(6):
 
 print(numeros)
 print(f"a soma dos numero é: {sum(numeros)}")   
+
+
